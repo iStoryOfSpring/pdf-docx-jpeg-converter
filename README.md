@@ -33,7 +33,7 @@
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
-│  PDF·Word·JPG互转工具-武汉纺织大学管理学院媒体运营部           │
+│  PDF·Word·JPG互转工具-武汉纺织大学管理学院媒体运营部            │
 ├──────────────────────────────────────────────────────────────┤
 │  [+ 添加文件] [+ 导入文件夹] [— 移除选中] [清空列表]           │
 │           [全部→PDF] [全部→Word] [全部→JPEG]  [仅选中的行]     │
@@ -79,10 +79,15 @@
 
 ## 🚀 快速开始
 
+### 0. exe文件（Windows环境下，双击直接打开）
+
+本软件使用Pyinstaller进行打包，可以在Windows平台下直接双击运行。注意：本软件原则上只支持到docx文件与其它互转。如果是doc文件，本软件的处理逻辑是调用Microsoft Office或者WPS Office的API，先转换为docx再转换为其它格式（当然转换完成后会清除临时文件）。所以涉及到DOC文件（即2003格式）的转换，必须安装前置软件WPS Office或者Microsoft Office. **请使用正版软件！请阁下自行前往正规渠道购买。如阁下使用非官方版本/破解版 软件对阁下造成了任何损失，本人概不负责。**
+
+### 以下步骤属于源代码直接执行的方法，普通用户请使用方法0. 本软件未对macos和Linux进行适配。如有字体问题请自行修改相应代码。后续如果有时间我在适配macos。
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/istoryofspring/pdf-word-jpg-converter.git
+git clone https://github.com/istoryofspring/pdf-word-jpg-converter
 cd pdf-word-jpg-converter
 ```
 
