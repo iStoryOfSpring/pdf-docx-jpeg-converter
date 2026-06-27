@@ -2,7 +2,9 @@
 
 ## PDF·Word·JPG 互转工具
 
-**本作品用于武汉纺织大学管理学院媒体运营部降本增效，避免部门干事为某些国产厂商付SVIP智商税的同时避免了网页端泄露资料的风险**
+**本作品本身用于武汉纺织大学管理学院媒体运营部降本增效，避免部门干事为某些国产厂商付SVIP智商税的同时避免了网页端泄露资料的风险**
+
+**因个人认为开源对众人有利，故发往Github供全球开发者审查，本人代码水平有限，本人非常感谢大家提交自己的想法和困惑用于改进.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
